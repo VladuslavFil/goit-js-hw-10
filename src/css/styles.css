@@ -16,3 +16,128 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.timer {
+  font-weight: 400;
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.value {
+  display: flex;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  justify-content: center;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-transform: uppercase;
+}
+
+button[data-start] {
+  width: 75px;
+  height: 40px;
+  margin-left: 8px;
+}
+
+#datetime-picker {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  margin-bottom: 32px;
+  margin-top: 36px;
+  outline: none;
+}
+
+#datetime-picker:hover {
+  border: 1px solid #000;
+}
+
+#datetime-picker:focus {
+  border: 1px solid #4e75ff;
+}
+
+button[data-start]:hover {
+  background-color: #6c8cff;
+}
+
+button[data-start]:disabled {
+  background: #cfcfcf;
+  color: #989898;
+}
+
+.container-timer {
+  margin-left: 156px;
+}
+
+.btn-submit {
+  width: 360px;
+  height: 40px;
+  margin-top: 24px;
+}
+
+.btn-submit:hover {
+  background-color: #6c8cff;
+}
+
+.delay {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  outline: none;
+}
+
+.delay:hover {
+  border: 1px solid #000;
+}
+
+.delay:focus {
+  border: 1px solid #4e75ff;
+}
+
+.delay-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.radio-form {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 340px;
+  height: 54px;
+  margin: 0;
+}
+
+.radio-form:hover {
+  border: 1px solid #000;
+}
+
+.form {
+  margin-top: 36px;
+  margin-left: 156px;
+}
+
+.radio-label {
+  margin-left: 48px;
+}
